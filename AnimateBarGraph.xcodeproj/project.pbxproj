@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7A1A8E8185CE3740046A1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A8E7185CE3740046A1AE /* Foundation.framework */; };
+		D7A1A8EA185CE3740046A1AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A8E9185CE3740046A1AE /* CoreGraphics.framework */; };
+		D7A1A8EC185CE3740046A1AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A8EB185CE3740046A1AE /* UIKit.framework */; };
+		D7A1A8F2185CE3740046A1AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A1A8F0185CE3740046A1AE /* InfoPlist.strings */; };
+		D7A1A8F4185CE3740046A1AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1A8F3185CE3740046A1AE /* main.m */; };
+		D7A1A8F8185CE3740046A1AE /* BFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1A8F7185CE3740046A1AE /* BFAppDelegate.m */; };
+		D7A1A8FB185CE3740046A1AE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A1A8F9185CE3740046A1AE /* Main_iPhone.storyboard */; };
+		D7A1A8FE185CE3740046A1AE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A1A8FC185CE3740046A1AE /* Main_iPad.storyboard */; };
+		D7A1A901185CE3740046A1AE /* BFExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1A900185CE3740046A1AE /* BFExampleViewController.m */; };
+		D7A1A903185CE3740046A1AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A1A902185CE3740046A1AE /* Images.xcassets */; };
+		D7A1A90A185CE3740046A1AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A909185CE3740046A1AE /* XCTest.framework */; };
+		D7A1A90B185CE3740046A1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A8E7185CE3740046A1AE /* Foundation.framework */; };
+		D7A1A90C185CE3740046A1AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A1A8EB185CE3740046A1AE /* UIKit.framework */; };
+		D7A1A914185CE3740046A1AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A1A912185CE3740046A1AE /* InfoPlist.strings */; };
+		D7A1A916185CE3740046A1AE /* AnimateBarGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1A915185CE3740046A1AE /* AnimateBarGraphTests.m */; };
+		D7A1A922185D197B0046A1AE /* BFBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A1A920185D197B0046A1AE /* BFBarGraphView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A1A90D185CE3740046A1AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A1A8DC185CE3740046A1AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A1A8E3185CE3740046A1AE;
+			remoteInfo = AnimateBarGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7A1A8E4185CE3740046A1AE /* AnimateBarGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateBarGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A1A8E7185CE3740046A1AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7A1A8E9185CE3740046A1AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7A1A8EB185CE3740046A1AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7A1A8EF185CE3740046A1AE /* AnimateBarGraph-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimateBarGraph-Info.plist"; sourceTree = "<group>"; };
+		D7A1A8F1185CE3740046A1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7A1A8F3185CE3740046A1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7A1A8F5185CE3740046A1AE /* AnimateBarGraph-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimateBarGraph-Prefix.pch"; sourceTree = "<group>"; };
+		D7A1A8F6185CE3740046A1AE /* BFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFAppDelegate.h; sourceTree = "<group>"; };
+		D7A1A8F7185CE3740046A1AE /* BFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFAppDelegate.m; sourceTree = "<group>"; };
+		D7A1A8FA185CE3740046A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D7A1A8FD185CE3740046A1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D7A1A8FF185CE3740046A1AE /* BFExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFExampleViewController.h; sourceTree = "<group>"; };
+		D7A1A900185CE3740046A1AE /* BFExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFExampleViewController.m; sourceTree = "<group>"; };
+		D7A1A902185CE3740046A1AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7A1A908185CE3740046A1AE /* AnimateBarGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimateBarGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A1A909185CE3740046A1AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7A1A911185CE3740046A1AE /* AnimateBarGraphTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimateBarGraphTests-Info.plist"; sourceTree = "<group>"; };
+		D7A1A913185CE3740046A1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7A1A915185CE3740046A1AE /* AnimateBarGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateBarGraphTests.m; sourceTree = "<group>"; };
+		D7A1A91F185D197B0046A1AE /* BFBarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFBarGraphView.h; sourceTree = "<group>"; };
+		D7A1A920185D197B0046A1AE /* BFBarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFBarGraphView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A1A8E1185CE3740046A1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A8EA185CE3740046A1AE /* CoreGraphics.framework in Frameworks */,
+				D7A1A8EC185CE3740046A1AE /* UIKit.framework in Frameworks */,
+				D7A1A8E8185CE3740046A1AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A1A905185CE3740046A1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A90A185CE3740046A1AE /* XCTest.framework in Frameworks */,
+				D7A1A90C185CE3740046A1AE /* UIKit.framework in Frameworks */,
+				D7A1A90B185CE3740046A1AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A1A8DB185CE3740046A1AE = {
+			isa = PBXGroup;
+			children = (
+				D7A1A8ED185CE3740046A1AE /* AnimateBarGraph */,
+				D7A1A90F185CE3740046A1AE /* AnimateBarGraphTests */,
+				D7A1A8E6185CE3740046A1AE /* Frameworks */,
+				D7A1A8E5185CE3740046A1AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A1A8E5185CE3740046A1AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A8E4185CE3740046A1AE /* AnimateBarGraph.app */,
+				D7A1A908185CE3740046A1AE /* AnimateBarGraphTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A1A8E6185CE3740046A1AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A8E7185CE3740046A1AE /* Foundation.framework */,
+				D7A1A8E9185CE3740046A1AE /* CoreGraphics.framework */,
+				D7A1A8EB185CE3740046A1AE /* UIKit.framework */,
+				D7A1A909185CE3740046A1AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A1A8ED185CE3740046A1AE /* AnimateBarGraph */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A924185D26BD0046A1AE /* BFAnimatedBarGraphView */,
+				D7A1A8F6185CE3740046A1AE /* BFAppDelegate.h */,
+				D7A1A8F7185CE3740046A1AE /* BFAppDelegate.m */,
+				D7A1A8F9185CE3740046A1AE /* Main_iPhone.storyboard */,
+				D7A1A8FC185CE3740046A1AE /* Main_iPad.storyboard */,
+				D7A1A8FF185CE3740046A1AE /* BFExampleViewController.h */,
+				D7A1A900185CE3740046A1AE /* BFExampleViewController.m */,
+				D7A1A902185CE3740046A1AE /* Images.xcassets */,
+				D7A1A8EE185CE3740046A1AE /* Supporting Files */,
+			);
+			path = AnimateBarGraph;
+			sourceTree = "<group>";
+		};
+		D7A1A8EE185CE3740046A1AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A8EF185CE3740046A1AE /* AnimateBarGraph-Info.plist */,
+				D7A1A8F0185CE3740046A1AE /* InfoPlist.strings */,
+				D7A1A8F3185CE3740046A1AE /* main.m */,
+				D7A1A8F5185CE3740046A1AE /* AnimateBarGraph-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A1A90F185CE3740046A1AE /* AnimateBarGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A915185CE3740046A1AE /* AnimateBarGraphTests.m */,
+				D7A1A910185CE3740046A1AE /* Supporting Files */,
+			);
+			path = AnimateBarGraphTests;
+			sourceTree = "<group>";
+		};
+		D7A1A910185CE3740046A1AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A911185CE3740046A1AE /* AnimateBarGraphTests-Info.plist */,
+				D7A1A912185CE3740046A1AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7A1A924185D26BD0046A1AE /* BFAnimatedBarGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				D7A1A91F185D197B0046A1AE /* BFBarGraphView.h */,
+				D7A1A920185D197B0046A1AE /* BFBarGraphView.m */,
+			);
+			name = BFAnimatedBarGraphView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A1A8E3185CE3740046A1AE /* AnimateBarGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A1A919185CE3740046A1AE /* Build configuration list for PBXNativeTarget "AnimateBarGraph" */;
+			buildPhases = (
+				D7A1A8E0185CE3740046A1AE /* Sources */,
+				D7A1A8E1185CE3740046A1AE /* Frameworks */,
+				D7A1A8E2185CE3740046A1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimateBarGraph;
+			productName = AnimateBarGraph;
+			productReference = D7A1A8E4185CE3740046A1AE /* AnimateBarGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A1A907185CE3740046A1AE /* AnimateBarGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A1A91C185CE3740046A1AE /* Build configuration list for PBXNativeTarget "AnimateBarGraphTests" */;
+			buildPhases = (
+				D7A1A904185CE3740046A1AE /* Sources */,
+				D7A1A905185CE3740046A1AE /* Frameworks */,
+				D7A1A906185CE3740046A1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A1A90E185CE3740046A1AE /* PBXTargetDependency */,
+			);
+			name = AnimateBarGraphTests;
+			productName = AnimateBarGraphTests;
+			productReference = D7A1A908185CE3740046A1AE /* AnimateBarGraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A1A8DC185CE3740046A1AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Brandon Forsberg";
+				TargetAttributes = {
+					D7A1A8E3185CE3740046A1AE = {
+						DevelopmentTeam = S93DLJ967A;
+					};
+					D7A1A907185CE3740046A1AE = {
+						TestTargetID = D7A1A8E3185CE3740046A1AE;
+					};
+				};
+			};
+			buildConfigurationList = D7A1A8DF185CE3740046A1AE /* Build configuration list for PBXProject "AnimateBarGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A1A8DB185CE3740046A1AE;
+			productRefGroup = D7A1A8E5185CE3740046A1AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A1A8E3185CE3740046A1AE /* AnimateBarGraph */,
+				D7A1A907185CE3740046A1AE /* AnimateBarGraphTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A1A8E2185CE3740046A1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A8FE185CE3740046A1AE /* Main_iPad.storyboard in Resources */,
+				D7A1A903185CE3740046A1AE /* Images.xcassets in Resources */,
+				D7A1A8FB185CE3740046A1AE /* Main_iPhone.storyboard in Resources */,
+				D7A1A8F2185CE3740046A1AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A1A906185CE3740046A1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A914185CE3740046A1AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A1A8E0185CE3740046A1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A901185CE3740046A1AE /* BFExampleViewController.m in Sources */,
+				D7A1A8F8185CE3740046A1AE /* BFAppDelegate.m in Sources */,
+				D7A1A922185D197B0046A1AE /* BFBarGraphView.m in Sources */,
+				D7A1A8F4185CE3740046A1AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A1A904185CE3740046A1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A1A916185CE3740046A1AE /* AnimateBarGraphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A1A90E185CE3740046A1AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A1A8E3185CE3740046A1AE /* AnimateBarGraph */;
+			targetProxy = D7A1A90D185CE3740046A1AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A1A8F0185CE3740046A1AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A1A8F1185CE3740046A1AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7A1A8F9185CE3740046A1AE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A1A8FA185CE3740046A1AE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A1A8FC185CE3740046A1AE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A1A8FD185CE3740046A1AE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A1A912185CE3740046A1AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A1A913185CE3740046A1AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A1A917185CE3740046A1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A1A918185CE3740046A1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A1A91A185CE3740046A1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimateBarGraph/AnimateBarGraph-Prefix.pch";
+				INFOPLIST_FILE = "AnimateBarGraph/AnimateBarGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7A1A91B185CE3740046A1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimateBarGraph/AnimateBarGraph-Prefix.pch";
+				INFOPLIST_FILE = "AnimateBarGraph/AnimateBarGraph-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D7A1A91D185CE3740046A1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimateBarGraph.app/AnimateBarGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimateBarGraph/AnimateBarGraph-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimateBarGraphTests/AnimateBarGraphTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D7A1A91E185CE3740046A1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimateBarGraph.app/AnimateBarGraph";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimateBarGraph/AnimateBarGraph-Prefix.pch";
+				INFOPLIST_FILE = "AnimateBarGraphTests/AnimateBarGraphTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A1A8DF185CE3740046A1AE /* Build configuration list for PBXProject "AnimateBarGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A1A917185CE3740046A1AE /* Debug */,
+				D7A1A918185CE3740046A1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A1A919185CE3740046A1AE /* Build configuration list for PBXNativeTarget "AnimateBarGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A1A91A185CE3740046A1AE /* Debug */,
+				D7A1A91B185CE3740046A1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7A1A91C185CE3740046A1AE /* Build configuration list for PBXNativeTarget "AnimateBarGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A1A91D185CE3740046A1AE /* Debug */,
+				D7A1A91E185CE3740046A1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A1A8DC185CE3740046A1AE /* Project object */;
+}
