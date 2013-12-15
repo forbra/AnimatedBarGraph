@@ -18,7 +18,7 @@
     //STEP 1: Insert BFBarGraphView
     
     //STEP 2:
-    self.barGraphView.dataArray = @[@10,@20,@30,@40,@50,@60,@170,@80,@10,@20];
+   // self.barGraphView.dataArray = @[@10,@20,@30,@40,@50,@60,@170,@80,@10,@20];
     
     
     // OPTIONAL STEP IF YOU DON'T LIKE THE DEFAULT COLORS:

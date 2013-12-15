@@ -1,7 +1,7 @@
 //
 //  BFBarGraphView.h
 
-/* To Use: 1) Insert BFBarGraphView in your .xib  2) overide dataArray with percentage values  3) call drawBarGraph   Optionally you can override the color array also.    Graph is clipped to bounds so it does not draw outside of the bounds of the view;
+/* To Use: 1) Insert BFBarGraphView in your .xib  2) overide dataArray with percentage values  3) call drawBarGraph   Optionally you can override the color array also.   Dashed line is 100%.  Graph is clipped to bounds so it does not draw outside of the bounds of the view;
  
 */
 
